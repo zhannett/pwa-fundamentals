@@ -6,10 +6,36 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
   <meta name="fegrocer-api-endpoint" content="<%= htmlWebpackPlugin.options.apiEndpoint %>" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="web-app-capable" content="yes" />
+  <meta web-app-status-bar-style" content="black" />
+  <meta name="web-app-title" content="FE Grocer" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="apple-mobile-web-app-title" content="PWA Demo" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta name="fegrocer-api-endpoint" content="https://localhost:3100" />
+  <meta name="theme-color" content="#2d89ef" />
+  <link rel="manifest" href="/web-app-manifest.json" />
   <title>
     <%= htmlWebpackPlugin.options.title %>
   </title>
 
+ 
+   <!--
+  <link rel="stylesheet" type="text/css" href="../../style/addtohomescreen.css">
+  <script src="../../src/addtohomescreen.js"></script>
+  <script>
+    addToHomescreen({
+      appID: 'pwa.fundamentals',  // local storage name (no nedd to change)
+      message: 'Add to home?',  // the message can be customized
+      modal: false,   // block UI until the message is closed
+      mandatory: false// can't proceed if you don't add to homescreen
+    })
+  </script>
+  -->
 </head>
 
 <body>
